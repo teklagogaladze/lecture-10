@@ -7,7 +7,7 @@ body {
   font-weight: 400;
   margin-top: 33px;
   margin-right: 78px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 .main {
   display: flex;
@@ -47,7 +47,7 @@ body {
   display: inline-block;
   display: flex;
   flex-direction: column;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   width: 286px;
 }
 .section2 {
@@ -92,7 +92,7 @@ body {
 .thing {
   color: #343232;
   font-size: 19px;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 400;
   margin-top: 23px;
   margin-bottom: 9px;
@@ -103,7 +103,7 @@ body {
   color: #636060;
   font-size: 18px;
   font-weight: 400;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 56px;
   width: 100%;
 }
@@ -115,4 +115,57 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+}
+i {
+  display: none !important;
+  font-size: 24px;
+}
+.icon {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 14px;
+}
+@media only screen and (max-width: 750px) {
+  .Discover {
+    font-size: 60px;
+  }
+}
+@media screen and (max-width: 883px) {
+  .card {
+    width: 100%;
+    flex-direction: column;
+  }
+  .thing {
+    font-size: 40px;
+  }
+  .BOOKING {
+    font-size: 30px;
+  }
+  .cards {
+    margin: 0aouto;
+    width: 80%;
+    margin-left: 10%;
+  }
+}
+@media screen and (max-width: 750px) {
+  .image {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 750px) {
+  i {
+    display: inline-block !important;
+  }
+}
+@media only screen and (max-width: 750px) {
+  nav {
+    display: none;
+  }
+}
+@media only screen and (max-width: 883px) {
+  .text {
+    display: none;
+  }
 }
